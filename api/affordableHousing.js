@@ -1,3 +1,3 @@
 const getAirtableData = require(`./getAirtableData`);
 
-module.exports = getAirtableData(`Health`);
+module.exports = getAirtableData(`Shelter`);
