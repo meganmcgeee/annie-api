@@ -31,6 +31,10 @@ app.get(`/api/v1/youth`, (req, res) => {
   youth().then(msgs => res.send(msgs));
 });
 
+app.get(`/api/v1/childcare`, (req, res) => {
+  childcare().then(msgs => res.send(msgs));
+});
+
 const port = process.env.PORT || 3000;
 app.listen(port, () =>
   console.log(`Server listening on port ${port}!`)
