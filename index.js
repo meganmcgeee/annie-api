@@ -1,6 +1,7 @@
 const express = require(`express`);
 const food = require(`./api/foodPantries`);
 const healthcare = require(`./api/healthcareClinics`);
+const healthcareClinicsMore = require(`./api/healthcareClinicsMore`);
 const reentry = require(`./api/reentry`);
 const shelter = require(`./api/affordableHousing`);
 const youth = require(`./api/youthCenters`);
@@ -19,6 +20,10 @@ app.get(`/api/v1/healthcare`, (req, res) => {
   healthcare().then(msgs => res.send(msgs));
 });
 
+app.get(`/api/v1/healthcareClinicsMore`, (req, res) => {
+  healthcareClinicsMore().then(msgs => res.send(msgs));
+});
+
 app.get(`/api/v1/reentry`, (req, res) => {
   reentry().then(msgs => res.send(msgs));
 });
@@ -31,9 +36,9 @@ app.get(`/api/v1/youth`, (req, res) => {
   youth().then(msgs => res.send(msgs));
 });
 
-app.get(`/api/v1/childcare`, (req, res) => {
-  childcare().then(msgs => res.send(msgs));
-});
+// app.get(`/api/v1/childcare`, (req, res) => {
+//   childcare().then(msgs => res.send(msgs));
+// });
 
 const port = process.env.PORT || 3000;
 app.listen(port, () =>

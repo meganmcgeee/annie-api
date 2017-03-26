@@ -22,7 +22,7 @@ module.exports = endpoint => () => {
   }) {
     if (borough === `Brooklyn`) {
       return {
-        text: `${name}'s hours are listed as ${hours} and canhelp with the following services ${services}`,
+        text: `${name}'s hours are listed as ${hours} and can help with the following services ${services}`,
       };
     }
 
