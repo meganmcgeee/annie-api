@@ -6,6 +6,8 @@ const reentry = require(`./api/reentry`);
 const shelter = require(`./api/affordableHousing`);
 const shelterMore = require(`./api/affordableHousingMore`);
 const youth = require(`./api/youthCenters`);
+// Violet
+const drugInfo = require(`./api/drugInfo`);
 
 
 const app = express();
@@ -45,8 +47,8 @@ app.get(`/api/v1/youth`, (req, res) => {
 
 // Violet
 
-app.get(`/api/v1/violet/isProgestin`, (req, res) => {
-  food().then(msgs => res.send(msgs));
+app.get(`/api/v1/violet/drugInfo`, (req, res) => {
+  drugInfo().then(msgs => res.send(msgs));
 });
 
 const port = process.env.PORT || 3000;
