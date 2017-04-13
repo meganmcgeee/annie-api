@@ -1,3 +1,3 @@
 const getAirtableDataMoreInfo = require(`./getAirtableDataMoreInfo`);
 
-module.exports = getAirtableDataMoreInfo(`reentryMoreInfo`);
+module.exports = getAirtableDataMoreInfo(`reentry`);

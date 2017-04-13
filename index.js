@@ -3,7 +3,7 @@ const food = require(`./api/foodPantries`);
 const healthcare = require(`./api/healthcareClinics`);
 const healthcareClinicsMore = require(`./api/healthcareClinicsMore`);
 const reentry = require(`./api/reentry`);
-const reentry = require(`./api/reentryMoreInfo`);
+const reentryMore = require(`./api/reentryMore`);
 const shelter = require(`./api/affordableHousing`);
 const youth = require(`./api/youthCenters`);
 
@@ -29,8 +29,8 @@ app.get(`/api/v1/reentry`, (req, res) => {
   reentry().then(msgs => res.send(msgs));
 });
 
-app.get(`/api/v1/reentryMoreInfo`, (req, res) => {
-  reentryMoreInfo().then(msgs => res.send(msgs));
+app.get(`/api/v1/reentryMore`, (req, res) => {
+  reentryMore().then(msgs => res.send(msgs));
 });
 
 app.get(`/api/v1/shelter`, (req, res) => {
