@@ -28,6 +28,10 @@ app.get(`/api/v1/reentry`, (req, res) => {
   reentry().then(msgs => res.send(msgs));
 });
 
+app.get(`/api/v1/reentryMoreInfo`, (req, res) => {
+  reentry().then(msgs => res.send(msgs));
+});
+
 app.get(`/api/v1/shelter`, (req, res) => {
   shelter().then(msgs => res.send(msgs));
 });
