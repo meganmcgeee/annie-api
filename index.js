@@ -1,11 +1,15 @@
 const express = require(`express`);
-const food = require(`./api/foodPantries`);
-const healthcare = require(`./api/healthcareClinics`);
-const healthcareClinicsMore = require(`./api/healthcareClinicsMore`);
-const reentry = require(`./api/reentry`);
-const reentryMore = require(`./api/reentryMore`);
-const shelter = require(`./api/affordableHousing`);
-const youth = require(`./api/youthCenters`);
+
+// New York City
+
+// Brooklyn
+const food = require(`./api/brookyn/foodPantries`);
+const healthcare = require(`./api/brookyn/healthcareClinics`);
+const healthcareClinicsMore = require(`./api/brookyn/fhealthcareClinicsMore`);
+const reentry = require(`./api//brookyn/reentry`);
+const reentryMore = require(`./api//brookyn/reentryMore`);
+const shelter = require(`./api//brookyn/affordableHousing`);
+const youth = require(`./api/brookyn/youthCenters`);
 
 const app = express();
 
@@ -14,6 +18,10 @@ app.get(`/`, (req, res) => {
 });
 
 app.get(`/api/v1/food`, (req, res) => {
+  food().then(msgs => res.send(msgs));
+});
+
+app.get(`/api/v1/foodMore`, (req, res) => {
   food().then(msgs => res.send(msgs));
 });
 
