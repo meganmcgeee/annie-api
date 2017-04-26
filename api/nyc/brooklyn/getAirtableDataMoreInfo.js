@@ -7,13 +7,13 @@ module.exports = endpoint => () => {
     fields: {
       Name: name,
       Hours: hours,
-      Services: services,
+      Description: description,
       Borough: borough,
     },
   }) {
     if (borough === `Brooklyn`) {
       return {
-        text: `${name}'s hours are listed as ${hours} and can help with the following services ${services}`,
+        text: `${name}'s hours are listed as ${hours} and can help with the following services ${description}`,
       };
     }
 
