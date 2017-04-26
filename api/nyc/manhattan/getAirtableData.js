@@ -12,7 +12,7 @@ module.exports = endpoint => () => {
       Borough: borough,
     },
   }) {
-    if (borough === `Manhattan`) {
+    if (borough === `Brooklyn`) {
       return {
         text: `${name} at ${address} can be reached at ${phone}`,
       };
