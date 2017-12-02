@@ -15,53 +15,53 @@ const shelterMoreBk = require(`./api/nyc/brooklyn/housing/affordableHousingMore`
 // const youthMoreBk = require(`./api/nyc/brooklyn/youthcenters/youthCentersMore`);
 
 // Bronx
-// const foodBx = require(`./api/nyc/bronx/foodPantries`);
-// const foodMoreBx = require(`./api/nyc/bronx/foodPantriesMore`);
-// const healthcareBx = require(`./api/nyc/bronx/healthcareClinics`);
-// const healthcareClinicsMoreBx = require(`./api/nyc/bronx/healthcareClinicsMore`);
-// const reentryBx = require(`./api/nyc/bronx/reentry`);
-// const reentryMoreBx = require(`./api/nyc/bronx/reentryMore`);
-// const shelterBx = require(`./api/nyc/bronx/affordableHousing`);
-// const shelterMoreBx = require(`./api/nyc/bronx/affordableHousingMore`);
-// const youthBx = require(`./api/nyc/bronx/youthCenters`);
-// const youthMoreBx = require(`./api/nyc/bronx/youthCentersMore`);
+const foodBx = require(`./api/nyc/bronx/foodPantries`);
+const foodMoreBx = require(`./api/nyc/bronx/foodPantriesMore`);
+const healthcareBx = require(`./api/nyc/bronx/healthcareClinics`);
+const healthcareClinicsMoreBx = require(`./api/nyc/bronx/healthcareClinicsMore`);
+const reentryBx = require(`./api/nyc/bronx/reentry`);
+const reentryMoreBx = require(`./api/nyc/bronx/reentryMore`);
+const shelterBx = require(`./api/nyc/bronx/affordableHousing`);
+const shelterMoreBx = require(`./api/nyc/bronx/affordableHousingMore`);
+const youthBx = require(`./api/nyc/bronx/youthCenters`);
+const youthMoreBx = require(`./api/nyc/bronx/youthCentersMore`);
 
 
 // // Manhattan
-// const foodMn = require(`./api/nyc/manhattan/foodPantries`);
-// const foodMoreMn = require(`./api/nyc/manhattan/foodPantriesMore`);
-// const healthcareMn = require(`./api/nyc/manhattan/healthcareClinics`);
-// const healthcareClinicsMoreMn = require(`./api/nyc/manhattan/healthcareClinicsMore`);
-// const reentryMn = require(`./api/nyc/manhattan/reentry`);
-// const reentryMoreMn = require(`./api/nyc/manhattan/reentryMore`);
-// const shelterMn = require(`./api/nyc/manhattan/affordableHousing`);
-// const shelterMoreMn = require(`./api/nyc/manhattan/affordableHousingMore`);
-// const youthMn = require(`./api/nyc/manhattan/youthCenters`);
-// const youthMoreMn = require(`./api/nyc/manhattan/youthCentersMore`);
+const foodMn = require(`./api/nyc/manhattan/foodPantries`);
+const foodMoreMn = require(`./api/nyc/manhattan/foodPantriesMore`);
+const healthcareMn = require(`./api/nyc/manhattan/healthcareClinics`);
+const healthcareClinicsMoreMn = require(`./api/nyc/manhattan/healthcareClinicsMore`);
+const reentryMn = require(`./api/nyc/manhattan/reentry`);
+const reentryMoreMn = require(`./api/nyc/manhattan/reentryMore`);
+const shelterMn = require(`./api/nyc/manhattan/affordableHousing`);
+const shelterMoreMn = require(`./api/nyc/manhattan/affordableHousingMore`);
+const youthMn = require(`./api/nyc/manhattan/youthCenters`);
+const youthMoreMn = require(`./api/nyc/manhattan/youthCentersMore`);
 
 // Staten Island
-// const food = require(`./api/nyc/statenisland/foodPantries`);
-// const foodMore = require(`./api/nyc/statenisland/foodPantriesMore`);
-// const healthcare = require(`./api/nyc/statenisland/healthcareClinics`);
-// const healthcareClinicsMore = require(`./api/nyc/statenisland/healthcareClinicsMore`);
-// const reentry = require(`./api/nyc/statenisland/reentry`);
-// const reentryMore = require(`./api/nyc/statenisland/reentryMore`);
-// const shelter = require(`./api/nyc/statenisland/affordableHousing`);
-// const shelterMore = require(`./api/nyc/statenisland/affordableHousingMore`);
-// const youth = require(`./api/nyc/statenisland/youthCenters`);
-// const youthMore = require(`./api/nyc/statenisland/youthCentersMore`);
+const food = require(`./api/nyc/statenisland/foodPantries`);
+const foodMore = require(`./api/nyc/statenisland/foodPantriesMore`);
+const healthcare = require(`./api/nyc/statenisland/healthcareClinics`);
+const healthcareClinicsMore = require(`./api/nyc/statenisland/healthcareClinicsMore`);
+const reentry = require(`./api/nyc/statenisland/reentry`);
+const reentryMore = require(`./api/nyc/statenisland/reentryMore`);
+const shelter = require(`./api/nyc/statenisland/affordableHousing`);
+const shelterMore = require(`./api/nyc/statenisland/affordableHousingMore`);
+const youth = require(`./api/nyc/statenisland/youthCenters`);
+const youthMore = require(`./api/nyc/statenisland/youthCentersMore`);
 
 // // Queens
-// const food = require(`./api/nyc/queens/foodPantries`);
-// const foodMore = require(`./api/nyc/queens/foodPantriesMore`);
-// const healthcare = require(`./api/nyc/queens/healthcareClinics`);
-// const healthcareClinicsMore = require(`./api/nyc/queens/healthcareClinicsMore`);
-// const reentry = require(`./api/nyc/queens/reentry`);
-// const reentryMore = require(`./api/nyc/queens/reentryMore`);
-// const shelter = require(`./api/nyc/queens/affordableHousing`);
-// const shelterMore = require(`./api/nyc/queens/affordableHousingMore`);
-// const youth = require(`./api/nyc/queens/youthCenters`);
-// const youthMore = require(`./api/nyc/queens/youthCentersMore`);
+const food = require(`./api/nyc/queens/foodPantries`);
+const foodMore = require(`./api/nyc/queens/foodPantriesMore`);
+const healthcare = require(`./api/nyc/queens/healthcareClinics`);
+const healthcareClinicsMore = require(`./api/nyc/queens/healthcareClinicsMore`);
+const reentry = require(`./api/nyc/queens/reentry`);
+const reentryMore = require(`./api/nyc/queens/reentryMore`);
+const shelter = require(`./api/nyc/queens/affordableHousing`);
+const shelterMore = require(`./api/nyc/queens/affordableHousingMore`);
+const youth = require(`./api/nyc/queens/youthCenters`);
+const youthMore = require(`./api/nyc/queens/youthCentersMore`);
 
 const app = express();
 
@@ -149,37 +149,37 @@ app.get(`/api/v1/nyc/brooklyn/holiday`, (req, res) => {
 });
 // Manhattan
 
-// app.get(`/api/v1/nyc/manhattan/food`, (req, res) => {
-//   food().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/food`, (req, res) => {
+  food().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/foodMore`, (req, res) => {
-//   foodMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/foodMore`, (req, res) => {
+  foodMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/healthcare`, (req, res) => {
-//   healthcare().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/healthcare`, (req, res) => {
+  healthcare().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/healthcareClinicsMore`, (req, res) => {
-//   healthcareClinicsMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/healthcareClinicsMore`, (req, res) => {
+  healthcareClinicsMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/reentry`, (req, res) => {
-//   reentry().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/reentry`, (req, res) => {
+  reentry().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/reentryMore`, (req, res) => {
-//   reentryMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/reentryMore`, (req, res) => {
+  reentryMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/shelter`, (req, res) => {
-//   shelter().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/shelter`, (req, res) => {
+  shelter().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/manhattan/shelterMore`, (req, res) => {
-//   shelterMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/manhattan/shelterMore`, (req, res) => {
+  shelterMore().then(msgs => res.send(msgs));
+});
 
 const port = process.env.PORT || 3000;
 app.listen(port, () =>
