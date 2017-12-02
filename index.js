@@ -70,45 +70,45 @@ app.get(`/`, (req, res) => {
 });
 //  Bronx
 
-// app.get(`/api/v1/nyc/bronx/food`, (req, res) => {
-//   food().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/food`, (req, res) => {
+  food().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/foodMore`, (req, res) => {
-//   foodMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/foodMore`, (req, res) => {
+  foodMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/healthcare`, (req, res) => {
-//   healthcare().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/healthcare`, (req, res) => {
+  healthcare().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/healthcareClinicsMore`, (req, res) => {
-//   healthcareClinicsMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/healthcareClinicsMore`, (req, res) => {
+  healthcareClinicsMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/reentry`, (req, res) => {
-//   reentry().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/reentry`, (req, res) => {
+  reentry().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/reentryMore`, (req, res) => {
-//   reentryMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/reentryMore`, (req, res) => {
+  reentryMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/shelter`, (req, res) => {
-//   shelter().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/shelter`, (req, res) => {
+  shelter().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/shelterMore`, (req, res) => {
-//   shelterMore().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/shelterMore`, (req, res) => {
+  shelterMore().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/youth`, (req, res) => {
-//   youth().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/youth`, (req, res) => {
+  youth().then(msgs => res.send(msgs));
+});
 
-// app.get(`/api/v1/nyc/bronx/childcare`, (req, res) => {
-//   childcare().then(msgs => res.send(msgs));
-// });
+app.get(`/api/v1/nyc/bronx/childcare`, (req, res) => {
+  childcare().then(msgs => res.send(msgs));
+});
 
 // Broooklyn
 
