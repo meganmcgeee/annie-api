@@ -144,6 +144,9 @@ app.get(`/api/v1/nyc/brooklyn/shelterMore`, (req, res) => {
   shelterMoreBk().then(msgs => res.send(msgs));
 });
 
+app.get(`/api/v1/nyc/brooklyn/holiday`, (req, res) => {
+  shelterMoreBk().then(msgs => res.send(msgs));
+});
 // Manhattan
 
 // app.get(`/api/v1/nyc/manhattan/food`, (req, res) => {
@@ -182,3 +185,4 @@ const port = process.env.PORT || 3000;
 app.listen(port, () =>
   console.log(`Server listening on port ${port}!`)
 );
+
