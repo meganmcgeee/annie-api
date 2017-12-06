@@ -1,0 +1,11 @@
+var str = "       Hello World!        ";
+alert(str.trim());
+
+var str = '/var/www/site/Brand new document.docx';
+
+console.log(( str.replace(/\s/g, '') ));
+
+
+function(str){
+  console.log(( str.replace(/\s/g, '') ));
+}

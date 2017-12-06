@@ -9,10 +9,10 @@ module.exports = endpoint => () => {
       Name: name,
       Address: address,
       Phone: phone,
-      Borough: borough,
+      isComplete: iscomplete,
     },
   }) {
-    if (borough === `Brooklyn`) {
+    if (iscomplete === `Yes`) {
       return {
         text: `${name} at ${address} can be reached at ${phone}`,
       };

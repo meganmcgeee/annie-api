@@ -9,12 +9,33 @@ module.exports = endpoint => () => {
       Name: name,
       Address: address,
       Phone: phone,
-      Borough: borough,
+      isComplete: iscomplete,
+      imgLink: imglink,
+      Description: description,
     },
   }) {
-    if (borough === `Brooklyn`) {
+    if (iscomplete === `Yes`) {
       return {
-        text: `${name} at ${address} can be reached at ${phone}`,
+        attachment: {
+          type: `template`,
+          payload: {
+            template_type: `generic`,
+            elements: [
+              {
+                title: name,
+                image_url: imglink,
+                subtitle: description,
+                buttons: [
+                  {
+                    type: `web_url`,
+                    url: `https://google.com/maps/dir/{{latitude}}+{{longitude}}/street,+city,state+zip`,
+                    title: `How to Get There.`,
+                  },
+                ],
+              },
+            ],
+          },
+        },
       };
     }
 
