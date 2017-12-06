@@ -11,10 +11,11 @@ module.exports = endpoint => () => {
       Phone: phone,
       isComplete: iscomplete,
       imgLink: imglink,
+      Borough: borough,
       Description: description,
     },
   }) {
-    if (iscomplete === `Yes`) {
+    if (iscomplete === `Yes` && borough === `Brooklyn`) {
       return {
         attachment: {
           type: `template`,
