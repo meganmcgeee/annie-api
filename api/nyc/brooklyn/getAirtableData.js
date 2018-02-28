@@ -29,7 +29,7 @@ module.exports = endpoint => () => {
                 buttons: [
                   {
                     type: `web_url`,
-                    url: `https://google.com/maps/dir/{{latitude}}+{{longitude}}/${  address}`,
+                    url: `https://google.com/maps/dir/{{latitude}}+{{longitude}}/`,
                     title: `How to Get There.`,
                   },
                 ],

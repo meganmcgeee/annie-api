@@ -67,7 +67,7 @@ const holidayEvents = require(`./api/nyc/brooklyn/holiday/holidayEvents`);
 const app = express();
 
 app.get(`/`, (req, res) => {
-  res.send(`Welcome to Anniebot's API.`);
+  res.send(`Welcome to Anniebot's API. This API works with Chatfuel and sends data from an Airtable.com base about social services resources in NYC. It formats the information on social services into cards with direction buttons as JSON objects.`);
 });
 //  Bronx
 
